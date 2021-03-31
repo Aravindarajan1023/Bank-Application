@@ -29,16 +29,16 @@ public class AccountController {
         return accountService.findAll();
     }
 
-    /*@RequestMapping("/sendmoney")
+   /*@RequestMapping("/sendmoney")
     public Response sendMoney(
-            @RequestBody TransferBalanceRequest transferBalanceRequest
-    ) {
+           @RequestBody TransferBalanceRequest transferBalanceRequest
+   ) {
 
-        return Response.ok().setPayload(
-                accountService.sendMoney(
-                        transferBalanceRequest
-                )
-        );
+       return Response.ok().setPayload(
+               accountService.sendMoney(
+                       transferBalanceRequest
+              )
+       );
     }*/
     @RequestMapping("/statement")
     public Response getStatement(
