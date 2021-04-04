@@ -8,7 +8,7 @@ CREATE TABLE Account (
 );
 
 INSERT INTO Account (accountId, accountNumber, currentBalance) VALUES
-  ('01', '12345', '9947889696.00'),
+  ('01', '12345', '893893855893.00'),
   ('02', '12346', '5700.00'),
   ('03', '12343', '875574.00'),
   ('04', '12344', '5700.00'),
