@@ -27,7 +27,8 @@ INSERT INTO Account (accountId, accountNumber, currentBalance) VALUES
   ('17', '1234612', '1234.00'),
   ('18', '1234623', '7969.00'),
   ('19', '1234625', '889877.00'),
-  ('16', '1234734', '6500.00');
+  ('16', '1234734', '6500.00')
+  ('26', '12347349', '65000.00');
 
 CREATE TABLE Transaction(
 transactionId BIGINT AUTO_INCREMENT PRIMARY KEY,
