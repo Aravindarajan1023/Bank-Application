@@ -12,7 +12,7 @@ INSERT INTO Account (accountId, accountNumber, currentBalance) VALUES
   ('02', '12346', '5700.00'),
   ('04', '12347777', '893893855893.00'),
   ('03', '12343', '875574.00'),
-  ('05', '1234612', '1234.00'),
+  ('05', '1234612', '1234.00');
 
 
 CREATE TABLE Transaction(
